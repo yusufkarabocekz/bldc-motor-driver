@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 151.13 77.47)
+		(size 16.51 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b64071b-f450-46e4-b7f7-38438ba034eb")
+		(property "Sheetname" "DC Bus & Voltage Sens & Circuit OnOff"
+			(at 151.13 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus_vsens_on_off.kicad_sch"
+			(at 151.13 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 77.47)
 		(size 16.51 8.89)
 		(exclude_from_sim no)
@@ -85,6 +127,48 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba"
 					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 77.47)
+		(size 16.51 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd365a7f-3208-4e41-9b92-f3af75ec5baa")
+		(property "Sheetname" "Three Phase Inverter"
+			(at 124.46 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inverter.kicad_sch"
+			(at 124.46 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba"
+					(page "4")
 				)
 			)
 		)
