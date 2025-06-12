@@ -6838,6 +6838,28 @@
 			)
 		)
 	)
+	(global_label "INL_C"
+		(shape input)
+		(at 166.37 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0946e360-0a56-4c90-845e-8acb5e0b24d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.5562 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDI"
 		(shape input)
 		(at 119.38 100.33 180)
@@ -6862,7 +6884,7 @@
 	)
 	(global_label "HC"
 		(shape input)
-		(at 118.11 90.17 180)
+		(at 118.11 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6870,9 +6892,9 @@
 			)
 			(justify right)
 		)
-		(uuid "3a3ce66d-74db-4e70-85ae-8a4c4db952ff")
+		(uuid "21ec83b1-4926-447c-9d02-a28c2996b377")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.5243 90.17 0)
+			(at 112.5243 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,7 +7148,7 @@
 	)
 	(global_label "INH_C"
 		(shape input)
-		(at 166.37 49.53 0)
+		(at 166.37 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7134,9 +7156,9 @@
 			)
 			(justify left)
 		)
-		(uuid "93d02fbd-38b7-437e-a882-dc20af9fc03c")
+		(uuid "95794253-4c61-4e9d-a40e-011cfcc05abd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.8586 49.53 0)
+			(at 174.8586 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,28 +7432,6 @@
 			)
 		)
 	)
-	(global_label "HB"
-		(shape input)
-		(at 118.11 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d26c83a0-c2b5-4d47-b607-8e7082521917")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.5243 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BEMF_A"
 		(shape input)
 		(at 124.46 52.07 180)
@@ -7542,24 +7542,24 @@
 			)
 		)
 	)
-	(global_label "INL_C"
+	(global_label "HB"
 		(shape input)
-		(at 166.37 52.07 0)
+		(at 118.11 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "fc4fe1f4-6fd1-4670-809f-42beebabdc94")
+		(uuid "f8e0db3d-def0-4366-818b-a031096e00cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5562 52.07 0)
+			(at 112.5243 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7612,7 +7612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 60.96 0)
 			(effects
 				(font
@@ -7679,7 +7679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.9 95.25 0)
 			(effects
 				(font
@@ -7716,6 +7716,76 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 231.14 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09de7020-6aea-4435-ad7d-8be702659e47")
+		(property "Reference" "C57"
+			(at 233.68 147.3262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 233.68 149.8662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 231.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 231.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f1f1423-b4f6-470d-9c71-c46ab632ce6e")
+		)
+		(pin "2"
+			(uuid "748d97c7-1d39-49f0-bea8-1ed21417b99f")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -7782,6 +7852,76 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10737ffd-bcdf-4256-88b6-c897bd95f8bc")
+		(property "Reference" "C8"
+			(at 78.74 35.5662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.74 38.1062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe3e3319-5280-4f6f-9659-0808f231d61b")
+		)
+		(pin "2"
+			(uuid "94287812-6ba2-4856-9502-8484c5b0d0f8")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8063,6 +8203,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 228.6 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cb9d092-bc61-4854-b8a5-85f5317ab657")
+		(property "Reference" "R13"
+			(at 231.394 94.742 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 231.902 96.774 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d451a98-803c-4a57-8064-eee576388fa8")
+		)
+		(pin "1"
+			(uuid "627d04eb-9161-4c79-af1f-2b4316bcdbc3")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 66.04 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22ef3e22-27e6-4ab7-ad79-c617ceb4aad1")
+		(property "Reference" "R4"
+			(at 66.04 184.15 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "510"
+			(at 66.04 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 66.04 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56a31246-b67a-42c0-9cb6-36992b9152bf")
+		)
+		(pin "1"
+			(uuid "ac33e8c8-e86f-4a76-892d-58527877f07d")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 54.61 189.23 180)
 		(unit 1)
@@ -8199,76 +8474,6 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 245.11 110.49 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33f0b86e-5dd9-4f19-b4ed-205187d4bce5")
-		(property "Reference" "C15"
-			(at 247.65 111.7538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000pF"
-			(at 247.65 109.2138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 245.11 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 245.11 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66ba268e-6038-46b4-a796-776e0e0b03ce")
-		)
-		(pin "2"
-			(uuid "def8c523-e30c-475f-85d6-ac582b058dbe")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8632,7 +8837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 67.31 0)
 			(effects
 				(font
@@ -8669,6 +8874,73 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 229.87 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44960af5-8e7f-48dc-b3f2-0fe22fc2e155")
+		(property "Reference" "R14"
+			(at 229.87 39.878 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 229.87 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "765604a8-b064-4fab-8fd8-d6854c8f0bfd")
+		)
+		(pin "1"
+			(uuid "99acba55-ef34-4b2f-938a-f0369ff3fb78")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8742,34 +9014,32 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 256.54 110.49 0)
-		(mirror x)
+		(at 48.26 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4d0e4cee-5093-4ac3-b41d-e64af0910179")
-		(property "Reference" "C16"
-			(at 259.08 111.7538 0)
+		(fields_autoplaced yes)
+		(uuid "47dceac5-f8cb-4657-af14-c7773b7c4677")
+		(property "Reference" "C4"
+			(at 48.2663 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1000pF"
-			(at 259.08 109.2138 0)
+		(property "Value" "20pF"
+			(at 48.2663 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 256.54 110.49 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +9048,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 110.49 0)
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +9057,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 256.54 110.49 0)
+			(at 48.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,15 +9066,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "f07d265f-3f06-4566-95d9-a793d8e8d839")
+			(uuid "6458bf78-5835-440c-82e3-fe5a4e96c2a5")
 		)
 		(pin "2"
-			(uuid "5186b06f-553f-47cc-afb5-10fca6cb3b06")
+			(uuid "24b91e2c-7f70-4148-960a-50742d32e929")
 		)
 		(instances
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C16")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 132.08 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a935cb7-cab3-4166-9219-edba0268e133")
+		(property "Reference" "C55"
+			(at 134.62 184.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 134.62 186.6962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3ff4c75-f705-49f1-a09f-4eaf2f758422")
+		)
+		(pin "2"
+			(uuid "d6f75b0b-c112-494a-87f8-9df6aca47864")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -8877,35 +9217,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 132.08 185.42 0)
+		(lib_id "Device:R_Small")
+		(at 222.25 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51933249-a19e-4da4-9a6a-a08086804a7c")
-		(property "Reference" "C10"
-			(at 134.62 184.1562 0)
+		(uuid "543b4587-86f8-4d71-9f69-b00276413a27")
+		(property "Reference" "R11"
+			(at 225.044 94.742 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 134.62 186.6962 0)
+		(property "Value" "3.3k"
+			(at 225.552 96.774 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 132.08 185.42 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 222.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +9251,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 185.42 0)
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8688005c-72e2-436b-87f5-fff56513fa03")
+		)
+		(pin "1"
+			(uuid "e640c83f-292f-40f3-b97a-0466b760862d")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.28 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a90ff0e-c0a8-4e16-a53d-1e58cceefdd6")
+		(property "Reference" "C9"
+			(at 83.82 104.1335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 83.82 106.6735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +9330,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 132.08 185.42 0)
+			(at 81.28 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,15 +9339,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff8219ac-8638-45e5-b733-22c6cc081666")
+			(uuid "06c2d1d9-c79f-4399-a297-3ec724f82f65")
 		)
 		(pin "2"
-			(uuid "07e48fd4-1c5c-4f21-94fd-baea1ff3a145")
+			(uuid "8900437c-6aad-489b-9f0e-7d5f2bedd0c8")
 		)
 		(instances
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9038,7 +9445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.31 143.51 0)
 			(effects
 				(font
@@ -9082,16 +9489,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 35.56 148.59 0)
+		(at 256.54 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64b5f762-e787-48a9-b058-e65aa4ac4123")
-		(property "Reference" "C1"
-			(at 38.1 147.3262 0)
+		(uuid "6423a5f3-2ad1-4d8c-8e82-5b804bf1aaaf")
+		(property "Reference" "C16"
+			(at 259.08 109.2262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,8 +9505,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 38.1 149.8662 0)
+		(property "Value" "1000pF"
+			(at 259.08 111.7662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,8 +9514,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 35.56 148.59 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,7 +9524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 148.59 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,7 +9533,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 35.56 148.59 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,15 +9542,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef83ee65-10a6-4c00-afbf-09476c4d31a0")
+			(uuid "3ee6ce2c-8a0b-4e1b-8f63-c2f2b577fd23")
 		)
 		(pin "2"
-			(uuid "6b7c2c90-45ac-4902-aaa4-d32560f4c770")
+			(uuid "617f06ec-b1b5-4145-8196-f6ab1198e48a")
 		)
 		(instances
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C1")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9178,7 +9584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -9245,7 +9651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -9312,7 +9718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 177.8 0)
 			(effects
 				(font
@@ -9379,7 +9785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.52 143.51 0)
 			(effects
 				(font
@@ -9416,141 +9822,6 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 66.04 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cdc6a99-1398-4583-9b1e-2dfbb389c656")
-		(property "Reference" "R3"
-			(at 66.04 170.18 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "510"
-			(at 66.04 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 66.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6e35e1d-f45c-4a8d-bbb5-68f4162cf713")
-		)
-		(pin "1"
-			(uuid "e52b09e0-2d5f-4e24-98b4-344556e5eb07")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 222.25 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e2d3ac3-3434-4c90-9556-3b195080c0a2")
-		(property "Reference" "R11"
-			(at 225.044 94.742 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 225.552 96.774 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e8da8b3b-33d8-497a-a1ce-b21344d67d1d")
-		)
-		(pin "1"
-			(uuid "82752431-2cd1-4d0d-a746-cb05009c824c")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9623,35 +9894,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 36.83 0)
+		(lib_id "Device:R_Small")
+		(at 49.53 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74c05b35-7c36-43ee-8fb8-ab10de9a4e41")
-		(property "Reference" "C6"
-			(at 67.31 35.5662 0)
+		(uuid "73561ba9-4494-4d2c-8808-517592dc88d2")
+		(property "Reference" "R2"
+			(at 49.53 97.79 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 49.53 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 67.31 38.1062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 64.77 36.83 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.53 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,7 +9929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 36.83 0)
+			(at 49.53 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,25 +9937,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 36.83 0)
+		(property "Description" "Resistor, small symbol"
+			(at 49.53 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "ba80a341-85d5-4cac-ad45-9954aac97232")
 		)
 		(pin "2"
-			(uuid "f7d5a7d7-bb7c-4251-b545-207079b78114")
+			(uuid "cc7d3c10-685b-479b-b599-a64baa1f0290")
+		)
+		(pin "1"
+			(uuid "abfb2aef-481b-48f2-a82f-566b0abcee35")
 		)
 		(instances
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9753,6 +10022,75 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 245.11 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bda4d5d-88d7-49ea-a56e-2b32759694c2")
+		(property "Reference" "C15"
+			(at 247.65 109.2262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000pF"
+			(at 247.65 111.7662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a898c7-9ab3-4aa9-a171-eaea3ca19d00")
+		)
+		(pin "2"
+			(uuid "0c012dab-94f4-4e68-b56f-860d0150af82")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9922,7 +10260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 41.91 36.83 0)
 			(effects
 				(font
@@ -9965,100 +10303,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 229.87 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "840659e1-b539-4c17-b18f-660fc93a08c2")
-		(property "Reference" "R14"
-			(at 229.87 40.132 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 229.87 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 229.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 229.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40e46bd3-b6f9-4bcf-89e8-906c95d98a76")
-		)
-		(pin "1"
-			(uuid "86bb16a7-745a-4019-a86a-d1d619d9d613")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 66.04 189.23 90)
+		(lib_id "Device:C_Small")
+		(at 73.66 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "89737d8e-f37f-4390-84e8-a50a0e7da380")
-		(property "Reference" "R4"
-			(at 66.04 184.15 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "510"
-			(at 66.04 186.69 90)
+		(uuid "8b6ec3c1-6537-4636-85a6-4bbb1ba902ae")
+		(property "Reference" "C54"
+			(at 76.2 148.5962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 189.23 0)
+		(property "Value" "100nF"
+			(at 76.2 151.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 73.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +10340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 189.23 0)
+			(at 73.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10075,25 +10348,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 66.04 189.23 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 73.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "e059ad53-764c-4b8e-9d12-aaac9f1573bc")
 		)
 		(pin "1"
-			(uuid "c74b300f-46f4-4ed2-8744-2c9ada5e2c04")
+			(uuid "e7ef77ba-a8d8-41bc-bab7-fc38489eff24")
+		)
+		(pin "2"
+			(uuid "e5d8fc2a-7ce5-4598-99fe-e9584658dd92")
 		)
 		(instances
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "R4")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -10161,76 +10434,6 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 73.66 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9013429e-e7a5-482f-94ba-805add0c8082")
-		(property "Reference" "C7"
-			(at 76.2 148.5962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 76.2 151.1362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 73.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 73.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e1b54ec-cfc3-411f-8d05-460f4892ed02")
-		)
-		(pin "2"
-			(uuid "e245c668-8d87-4870-a980-051f03aee6ab")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10442,7 +10645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 233.68 110.49 0)
 			(effects
 				(font
@@ -11057,16 +11260,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 76.2 36.83 0)
+		(at 157.48 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b3e42a72-090b-40db-bc5f-998661b4e9ed")
-		(property "Reference" "C8"
-			(at 78.74 35.5662 0)
+		(uuid "b7bf2787-e662-493c-81c2-c4639c0655a6")
+		(property "Reference" "C56"
+			(at 160.02 142.2462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,7 +11278,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 78.74 38.1062 0)
+			(at 160.02 144.7862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11083,8 +11286,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 76.2 36.83 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 157.48 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,7 +11296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 36.83 0)
+			(at 157.48 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11102,7 +11305,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 76.2 36.83 0)
+			(at 157.48 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11111,152 +11314,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "662218fd-c9b5-42f2-990c-726061301092")
+			(uuid "6c82a031-34a1-4d89-bf6c-3e468f611b40")
 		)
 		(pin "2"
-			(uuid "2af9f4ff-5023-4091-94e0-9242bc613547")
+			(uuid "ec3157b1-6ff8-4431-9db1-a3afb92c7467")
 		)
 		(instances
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 228.6 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba8c18f2-362c-4cdf-ac7d-fab751a3d0e0")
-		(property "Reference" "R13"
-			(at 231.394 94.742 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 231.902 96.774 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 228.6 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 228.6 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bff1955c-73f3-4d6b-a6e6-b41d3543589e")
-		)
-		(pin "1"
-			(uuid "f8924b07-41d1-4df3-a177-9c29dd799e77")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 81.28 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc3713ff-1cca-4aaf-977c-054aa1ebf9f3")
-		(property "Reference" "C9"
-			(at 83.82 104.1335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 83.82 106.6735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 81.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 81.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2bebde0-9f2b-4426-9359-2d190552020f")
-		)
-		(pin "2"
-			(uuid "fdd76fdd-e95c-4d68-b454-ccf25f30adc8")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C9")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -11287,7 +11353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 222.25 39.37 0)
 			(effects
 				(font
@@ -11594,74 +11660,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 49.53 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9ce6bd9-636b-4dd1-a3f4-0dfdadce0010")
-		(property "Reference" "R2"
-			(at 49.53 97.79 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 49.53 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b6224d1-74ea-4dce-8e95-6cee5ac17bc4")
-		)
-		(pin "1"
-			(uuid "8f98b6ee-cfae-400f-87e3-8c76c5f53ed7")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 81.28 90.17 0)
 		(unit 1)
@@ -11753,7 +11751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 25.4 102.87 0)
 			(effects
 				(font
@@ -11790,143 +11788,6 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 231.14 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf812ceb-2b40-4ee5-9c15-9cd98a5aa792")
-		(property "Reference" "C13"
-			(at 233.68 147.3262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 233.68 149.8662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 231.14 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 231.14 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7b7dce3-6e7a-4b47-b52a-f0154934608c")
-		)
-		(pin "2"
-			(uuid "b4b37548-8b90-4312-bc3a-58e61f6302c9")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 48.26 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf9a9e57-3e45-4b69-a7ac-de052e518857")
-		(property "Reference" "C4"
-			(at 48.2663 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20pF"
-			(at 48.2663 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 48.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 48.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0aa61878-fec7-4efb-8fb9-50e113aad6de")
-		)
-		(pin "2"
-			(uuid "e6c20ff3-ae63-4a92-9e8b-0d02c77b4857")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12294,6 +12155,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d995b57a-2439-42d8-b01d-e09081ab4d14")
+		(property "Reference" "C6"
+			(at 67.31 35.5662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 67.31 38.1062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d901fdf6-b42f-46a3-b242-acfab4d64950")
+		)
+		(pin "2"
+			(uuid "dd9015f9-7927-49ad-adde-2f08fbbcc9bd")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 40.64 171.45 0)
 		(unit 1)
@@ -12420,6 +12351,74 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 66.04 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e832d0ab-0261-4c83-9739-acd529faaaa6")
+		(property "Reference" "R3"
+			(at 66.04 170.18 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "510"
+			(at 66.04 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 66.04 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2518370b-debb-4615-9b21-84ea71d54fe2")
+		)
+		(pin "1"
+			(uuid "78fcd791-63ab-4d07-aeff-16c087d2fb9b")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12564,16 +12563,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 53.34 36.83 0)
+		(at 35.56 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f7cc9921-f23e-479e-a782-eb50ca223f86")
-		(property "Reference" "C5"
-			(at 55.88 35.5662 0)
+		(uuid "f7415827-dce6-47a3-ab02-dee184355f11")
+		(property "Reference" "C7"
+			(at 38.1 147.3262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12582,7 +12581,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 55.88 38.1062 0)
+			(at 38.1 149.8662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12590,8 +12589,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 53.34 36.83 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 35.56 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12600,7 +12599,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 36.83 0)
+			(at 35.56 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12609,7 +12608,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 53.34 36.83 0)
+			(at 35.56 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12618,15 +12617,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "da2cee68-7219-4991-b4ea-0cfa758ceedc")
+			(uuid "bac6d85f-4f52-4c79-8037-dfc221d97685")
 		)
 		(pin "2"
-			(uuid "91c63352-1f8c-4851-b672-60b9f6fe9fba")
+			(uuid "d7b95ec5-a75c-4ffb-a0c6-1c93d5ee7a7e")
 		)
 		(instances
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12706,6 +12705,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 53.34 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9e13df2-3a86-4856-8f4d-1910434f9961")
+		(property "Reference" "C5"
+			(at 55.88 35.5662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 55.88 38.1062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c80a1c06-c0cf-4635-9302-51d4fbcc6132")
+		)
+		(pin "2"
+			(uuid "16a86648-0205-479d-be47-c9284b8e96ed")
+		)
+		(instances
+			(project "BLDC Motor Driver"
+				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 111.76 0)
 		(unit 1)
@@ -12766,76 +12835,6 @@
 			(project "BLDC Motor Driver"
 				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 157.48 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe8d6891-12c4-4ae1-8e04-f72a9d3ad6ba")
-		(property "Reference" "C11"
-			(at 160.02 142.2462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 160.02 144.7862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 157.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 157.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8eaccb2e-4db1-4997-b879-b2ba1d916b41")
-		)
-		(pin "2"
-			(uuid "76914cb5-afa2-4070-9389-9c8a454b6622")
-		)
-		(instances
-			(project "BLDC Motor Driver"
-				(path "/3d04f143-e184-4751-8ffb-1f540b2fc9ba/b5e9036a-acf3-4b8b-ae03-ef223fd6a4be"
-					(reference "C11")
 					(unit 1)
 				)
 			)
